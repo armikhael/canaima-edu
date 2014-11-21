@@ -272,6 +272,11 @@ img#fidetel{
     right: 5%;
     top:-7%;
 }
+img#objetivo-1{
+    position: absolute;
+    right: 35%;
+    top:50%; 
+}
 
 .impress-enabled .step {
     margin: 0;
@@ -295,7 +300,7 @@ img#fidetel{
     They cover everything what you see on first three steps of the demo.
 */
 .slide#inicio {
-    background: url("../images/backgraund.png") no-repeat center center fixed;
+    background: url("../images/background-inicio.png") no-repeat center center ;
 }
 .slide#app-canaima {
     background: url("../images/01_trompo.svg") no-repeat center center;
@@ -308,7 +313,7 @@ img#fidetel{
     padding: 40px 60px;
 
     background-color: #e8e5d6;
-    border: 10px solid #fff;
+    border: 10px solid #ef7824;
     /*border-radius: 10px;*/
     box-shadow: 0 10px 60px #212121;
 
@@ -389,8 +394,16 @@ img#fidetel{
 
 #concepts {
     padding: 0;
-    width: 900px;
+    width: 1200px;
     text-align: center;
+    color: white;
+}
+#objetivo {
+    padding: 0;
+    width: 1200px;
+    text-align: center;
+    color: white;
+    font-size: 120px;
 }
 
 #concepts h1 {
