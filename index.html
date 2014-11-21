@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Canaima GNU/Linux</title>
+    <meta name="description" content="Descripción del proceso de desarrollo de la Metadistribución Canaima GNU/Linux." />
+    <meta name="author" content="Equipo de Desarrollo de Canaima" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+    <link href="css/impress.css" rel="stylesheet" />
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+     <div class="step slide" id="inicio" data-x="-3100" data-y="-1500">
+        <img id="logo-gobierno" src="images/gobierno-inicio.png">
+        <img id="bicentenario" src="images/200-bi.png">
+        <img id="logo-inicio" src="images/logo-inicio.png">
+        <img id="cnti" src="images/cnti.png">
+        <img id="fidetel" src="images/fidetel.png">
+    </div>
+    
+    <div id="concepts" class="step" data-x="-2000" data-y="-1500">
+        <h2>Revisión de</h2>
+        <h1>Conceptos</h1>
+        <h2>fundamentales</h2>
+    </div>
+    
+    <div class="step slide" data-x="-1000" data-y="-1500">
+        <q>Una <b>distribución</b> GNU/Linux es un conjunto de software que se agrupa para proveer funcionalidades especializadas.</q>
+    </div>
+
+    <div class="step slide" data-x="-1000" data-y="-500">
+        <q>
+        Una <b>distribución</b> contiene:
+        <ul>
+        <li>Un núcleo o kernel.</li>
+        <li>Una interfaz de usuario.</li>
+        <li>Un conjunto de aplicaciones.</li>
+        </ul>
+        </q>
+    </div>
+
+    <div class="step" data-x="-2000" data-y="-500">
+        <img src="images/distro.png" />
+    </div>
+
+    <div class="step slide" data-x="-3000" data-y="-500" data-rotate="90">
+        <q>
+        Un <b>sistema operativo</b> elemental consta de un núcleo y una interfaz de usuario.
+        </q>
+    </div>
+
+    <div class="step slide" data-x="-2000" data-y="500">
+        <q>
+        Una <b>metadistribución</b> es una distribución que contiene las herramientas y la estructura necesaria para que se generen otras distribuciones a partir de ella.
+        </q>
+    </div>
+    
+    <div class="step bigtitle" data-x="-1000" data-y="1000" data-rotate="90" data-scale="4">
+        <p>Canaima es una <i><b>metadistribución</b></i></p>
+    </div>
+
+    <div class="step slide" data-x="-2000" data-y="1500">
+        De Canaima se derivan las siguientes distribuciones o <b>sabores</b>:
+        <ul>
+        <li>Canaima Popular (CNTI)</li>
+        <li>Canaima Educativo (CNTI)</li>
+        <li>Canaima CNTI (CNTI)</li>
+        <li>Canaima CANTV (CANTV)</li>
+        <li>Canaima Caribay (CENDITEL)</li>
+        <li>Canaima Comunal (COMUNIDAD)</li>
+        <li>Canaima Colibrí (COMUNIDAD)</li>
+        <li>Canaima Forense (COMUNIDAD)</li>
+        </ul>
+    </div>
+    
+    <div class="step" data-x="-3000" data-y="0" data-z="500" data-rotate-x="30" data-scale="8">
+        <p><b>¿Para qué?</b></p>
+    </div>
+    
+    <div class="step" data-x="-3000" data-y="1000" data-z="1000" data-rotate-x="-15" data-scale="8">
+        <p><b>¿Por qué?</b></p>
+    </div>
+    
+    <div class="step" data-x="-3000" data-y="2000" data-z="500" data-rotate-x="-60" data-scale="8">
+        <p><b>¿Cómo?</b></p>
+    </div>
+
+    <div class="step slide" data-x="-5500" data-y="3000">
+        Canaima es Software Libre, significa que:
+        <ul>
+        <li>Su propiedad es colectiva.</li>
+        <li>Su código puede ser visto, modificado y distribuído libremente.</li>
+        <li>Su esquema de trabajo es colaborativo y abierto.</li>
+        <li>Sus aplicaciones son desarrolladas bajo lenguajes y estándares abiertos.</li>
+        <li>Se procura estimular la participación comunitaria en la toma de decisiones.</li>
+        </ul>
+    </div>
+
+    <div class="step slide" data-x="-5500" data-y="4000">
+        <ul>
+        <li>Canaima está basada en otra metadistribución: <b>Debian</b></li>
+        <li>Debian es un proyecto internacional<sup><a href="http://www.debian.org/devel/developers.loc">0</a></sup>, con un esquema colaborativo basado en la <b>excelencia del código</b> y la <b>descentralización</b> del poder.</li>
+        <li>Para la versión 7.0, Debian tenía 1743 desarrolladores <sup><a href="https://db.debian.org/">1</a></sup> y ~28000 paquetes<sup><a href="http://ftp-master.debian.org/users/joerg/pkg-nums">2</a></sup>.</li>
+        <li>Para la versión 4.0, Canaima tenía 5 desarrolladores y 464 paquetes.</li>
+        </ul>
+    </div>
+	<!--
+    <div class="step slide" data-x="-5500" data-y="5000">
+        Origen de los paquetes según distribución
+        <img src="images/debiancanaima.png" />
+    </div>
+    -->
+    <div class="step" data-x="-4500" data-y="4000" data-rotate="-90" data-scale="3">
+        <p><b>¿En qué consiste el trabajo de la</b></p>
+        <p><b>Oficina de Operaciones Canaima?</b></p>
+    </div>
+    
+    <div id="ciclo" class="step" data-x="-3500" data-y="1500" data-rotate="-90" data-scale="3">
+        <p>La oficina se divide en tres equipos:</p>
+        <ul>
+        <li><span class="up1"><b>Plataforma</b> - 4 personas</span></li>
+        <li><span class="up2"><b>Soporte</b> - 1 persona</span></li>
+        <li><span class="up3"><b>Desarrollo</b> - 7 personas</span></li>
+        <ul>
+    </div>
+
+    <div class="step slide" data-x="-3500" data-y="3500">
+        <b>Equipo de plataforma</b>
+        <ul>
+        <li>Administración de los servidores (12 unidades).</li>
+        <li>Administración de las máquinas virtuales.</li>
+        <li>Mantenimiento de servicios críticos.</li>
+        <li>Desarrollo de aplicaciones.</li>
+        <li>Gestión de permisología.</li>
+        <ul>
+    </div>
+
+    <div class="step" data-x="-2500" data-y="3500">
+        <img src="images/servidores.png" />
+    </div>
+
+    <div class="step" data-x="-1500" data-y="3500">
+        <img src="images/servicios.png" />
+    </div>
+
+    <div class="step slide" data-x="-300" data-y="3500">
+        <b>Resumen de plataforma</b>
+        <ul>
+        <li>Unidades: 8 CANTV + 4 CNTI.</li>
+        <li>Almacenamiento: 2,3TB (discos) + 7,8TB (red).</li>
+        <li>Memoria: 67GB.</li>
+        <li>Servicios: 17 críticos, 8 complementarios, 11 comunidad, 29 experimentales.</li>
+        <li>Mantenedores: 4 CNTI + 20 comunidad.</li>
+        <ul>
+    </div>
+
+    <div class="step slide" data-x="-3500" data-y="4500">
+        Equipo de soporte
+        <ul>
+        <li>Proveer soporte de 3er y 4to nivel a las instituciones del estado y usuarios de Canaima.</span></li>
+        <li>Documentar casos resueltos en la Enciclopedia Colaborativa.</span></li>
+        <ul>
+    </div>
+
+    <div class="step" data-x="-2500" data-y="4500">
+        <img src="images/soporte.png" />
+    </div>
+
+    <div class="step slide" data-x="-3500" data-y="5500">
+        Equipo de desarrollo
+        <ul>
+        <li>Estructurar los componentes básicos del Sistema Operativo.</li>
+        <li>Proveer un conjunto de aplicaciones para ofimática, multimedia e internet.</li>
+        <li>Desarrollar aplicaciones en base a las necesidades de los usuarios.</li>
+        <li>Proveer una experiencia de usuario libre de errores.</li>
+        <li>Asegurar la calidad de los productos.</li>
+        <ul>
+    </div>
+
+    <div class="step" data-x="-2500" data-y="5500">
+        <img src="images/ciclo-desarrollo.png" />
+    </div>
+
+    <div class="step" data-x="-1500" data-y="5500">
+        <img src="images/ciclo-pruebas.png" />
+    </div>
+    
+    <div id="retos" class="step" data-x="-2000" data-y="2500" data-scale="2">
+        <span class="masgrande"><b>Retos</b></span> <span class="grande">Oportunidades</span> <span class="normal">Debilidades</span>
+    </div>
+
+    <div class="step slide" id="app-canaima" data-x="-900" data-y="2500">
+        <b id="blanco">Incentivar el desarrollo de aplicaciones Nacionales</b>
+    </div>
+    
+    <div id="tribus" class="step" data-x="600" data-y="2500" data-scale="1" data-rotate="-90">
+        <h2 >Tribus</h2>
+    </div>
+    
+    <div id="tribus-1" class="step" data-x="600" data-y="1500" data-scale="1" data-rotate="-90">
+        <h1 >¿Qué es?</h1>
+    </div>
+    
+    <div class="step slide" data-x="600" data-y="300" data-rotate="-90">
+        <ul>
+            <li>Un automatizador de procesos.</li>
+            <li>Un repositorio de software, arte, documentación, etc.</li>
+            <li>Un sistema de valoración.</li>
+            <li>Un sistema de asignación de privilegios.</li>
+            <li>Un sistema para el seguimiento de proyectos.</li>
+            <li>Un facilitador para el despliegue y gestión de plataforma.</li>
+            <li>Una red social <strong>diferente</strong>.</li>
+        </ul>
+    </div>
+    
+    <div class="step" data-x="-200" data-y="1500" data-scale="1" data-rotate="180">
+        <p><b><h1>¿Por qué es necesario tribus?</h1></b></p>
+    </div>
+    
+    <div class="step slide" data-x="2000" data-y="300">
+        <h1>Porque Canaima tiene debilidades en las siguientes áreas:</h1>
+        <ul>
+            <li>Políticas de colaboración en todas las áreas del proyecto.</li>
+            <li>Automatización de procesos en general.</li>
+            <li>Métodos de interacción comunitaria que promuevan la participación directa.</li>
+        </ul>
+    </div>
+    
+    <div class="step" data-x="1900" data-y="1500" data-scale="1" data-rotate="180">
+        <p><b><h1>¿Cómo está hecho?</h1></b></p>
+    </div>
+    
+    <div class="step" data-x="2000" data-y="2700" data-scale="2">
+         <img src="images/herramientas.png" />
+    </div>
+    
+    <div class="step" data-x="4000" data-y="1500" data-scale="1">
+        <p><b><h1>¿Qué tenemos hecho?</h1></b></p>
+    </div>
+    
+    <div class="step" data-x="-8000" data-y="1500" data-scale="1">
+    </div>
+	
+	<div class="step" data-x="4500" data-y="4000">
+        <img src="images/screen1.png" />
+    </div>
+
+    <div class="step" data-x="3500" data-y="4000" data-rotate="-90">
+        <img src="images/screen3.png" />
+    </div>
+    
+    <div class="step" data-x="3500" data-y="3000" data-rotate="0">
+        <img src="images/perfil.png" />
+    </div>
+    
+    <div class="step" data-x="5000" data-y="5500" data-scale="1">
+        <p><b><h1>¿Cómo participar?</h1></b></p>
+    </div>
+    
+    <div class="step slide" data-x="3500" data-y="5500">
+        <p><b><h1 class="grande">Tribus</h1></b></p>
+        <img id="img-tribus" src="images/logo.png">
+        <br>
+         <ul>
+			<img src="images/twitter.png"><a href="http://twitter.com/tribusdev"> Twitter</a>
+		 </ul>
+		 <ul>
+			 http://twitter.com/tribusdev 
+		 </ul>
+		 <ul>
+			<img src="images/facebook.png"><a href="http://facebook.com/groups/tribusdev"> Facebook</a> 
+		 </ul>
+		 <ul>
+			 http://facebook.com/groups/tribusdev
+		 </ul>
+		 <ul>
+			<img src="images/github.png"><a href="http://github.com/CanaimaGNULinux/tribus"> GitHub</a> 
+		 </ul>
+		 <ul>
+			 http://github.com/CanaimaGNULinux/tribus
+		 </ul>
+    </div>
+
+    <div id="overview" class="step" data-x="-3000" data-y="2000" data-scale="12"></div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
